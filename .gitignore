@@ -31,3 +31,17 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Terraform ###
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+*.tfvars
+*.tfvars.json
+
+.terraformrc
+terraform.rc
